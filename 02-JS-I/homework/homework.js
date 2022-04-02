@@ -4,10 +4,10 @@
 const nuevaString = "hola";
 
 // Crea una variable numérica, puede ser cualquier número:
-const nuevoNum = "3";
+const nuevoNum = 3;
 
 // Crea una variable booleana:
-var meEncantaHenry = true;
+const nuevoBool = meEncantaHenry = true;
 
 // Resuelve el siguiente problema matemático:
 const nuevaResta = 10 - 5 === 5;
@@ -28,14 +28,18 @@ const nuevoModulo = 21 % 5 === 1;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
+  function devolverString(str)
+  return str
   
 }
 
 function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
-  // Tu código:
-  
+  // Tu código: 
+  function suma(x, y){
+    return x + y;
+  }
 }
 
 function resta(x, y) {
